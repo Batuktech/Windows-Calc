@@ -1,0 +1,14 @@
+C:\Users\sugas\source\repos\CalculatorLAB\CalculatorLAB\obj\Debug\net8.0\CalculatorLAB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sugas\source\repos\CalculatorLAB\CalculatorLAB\obj\Debug\net8.0\CalculatorLAB.AssemblyInfoInputs.cache
+C:\Users\sugas\source\repos\CalculatorLAB\CalculatorLAB\obj\Debug\net8.0\CalculatorLAB.AssemblyInfo.cs
+C:\Users\sugas\source\repos\CalculatorLAB\CalculatorLAB\obj\Debug\net8.0\CalculatorLAB.csproj.CoreCompileInputs.cache
+C:\Users\sugas\source\repos\CalculatorLAB\CalculatorLAB\bin\Debug\net8.0\CalculatorLAB.exe
+C:\Users\sugas\source\repos\CalculatorLAB\CalculatorLAB\bin\Debug\net8.0\CalculatorLAB.deps.json
+C:\Users\sugas\source\repos\CalculatorLAB\CalculatorLAB\bin\Debug\net8.0\CalculatorLAB.runtimeconfig.json
+C:\Users\sugas\source\repos\CalculatorLAB\CalculatorLAB\bin\Debug\net8.0\CalculatorLAB.dll
+C:\Users\sugas\source\repos\CalculatorLAB\CalculatorLAB\bin\Debug\net8.0\CalculatorLAB.pdb
+C:\Users\sugas\source\repos\CalculatorLAB\CalculatorLAB\obj\Debug\net8.0\CalculatorLAB.dll
+C:\Users\sugas\source\repos\CalculatorLAB\CalculatorLAB\obj\Debug\net8.0\refint\CalculatorLAB.dll
+C:\Users\sugas\source\repos\CalculatorLAB\CalculatorLAB\obj\Debug\net8.0\CalculatorLAB.pdb
+C:\Users\sugas\source\repos\CalculatorLAB\CalculatorLAB\obj\Debug\net8.0\CalculatorLAB.genruntimeconfig.cache
+C:\Users\sugas\source\repos\CalculatorLAB\CalculatorLAB\obj\Debug\net8.0\ref\CalculatorLAB.dll
