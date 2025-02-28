@@ -1,0 +1,67 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DLLMaincalc/1.0.0": {
+        "dependencies": {
+          "DLLCalc": "1.0.0",
+          "DLLInterface": "1.0.0",
+          "DLLMemory": "1.0.0"
+        },
+        "runtime": {
+          "DLLMaincalc.dll": {}
+        }
+      },
+      "DLLCalc/1.0.0": {
+        "runtime": {
+          "DLLCalc.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "DLLInterface/1.0.0": {
+        "runtime": {
+          "DLLInterface.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "DLLMemory/1.0.0": {
+        "runtime": {
+          "DLLMemory.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DLLMaincalc/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DLLCalc/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DLLInterface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DLLMemory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

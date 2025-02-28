@@ -1,5 +1,5 @@
 ﻿using System;
-using CalculatorLAB.MainCalc;
+using DLLMaincalc.MainCalc;
 
 namespace Calculator
 {
@@ -7,7 +7,7 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            MainCalc calculator = new MainCalc(); // ✅ Create instance once to maintain memory
+            MainCalc calculator = new MainCalc(); // Only one instance, contains memory
 
             while (true)
             {
@@ -29,44 +29,25 @@ namespace Calculator
                 switch (choice)
                 {
                     case 1: // Plus
-                        Console.Write("Enter first number: ");
-                        if (!decimal.TryParse(Console.ReadLine(), out decimal num1))
-                        {
-                            Console.WriteLine("Invalid input. Please enter a valid number.");
-                            break;
-                        }
-
-                        Console.Write("Enter second number: ");
-                        if (!decimal.TryParse(Console.ReadLine(), out decimal num2))
-                        {
-                            Console.WriteLine("Invalid input. Please enter a valid number.");
-                            break;
-                        }
-                        //garaas 2 utgaa avsan
-                        //calculator object iin Plus function duudna
-                        calculator.Plus(num1, num2);
-                        calculator.SaveToMemory(); // uildel hiisnii daraa memoryd Result iig hadgalna
-                        Console.WriteLine($"New Result: {calculator.Result}");
-                        break;
-
                     case 2: // Minus
-                        Console.Write("Enter first number: ");
-                        if (!decimal.TryParse(Console.ReadLine(), out decimal num3))
+                        Console.Write("Enter number: ");
+                        if (!decimal.TryParse(Console.ReadLine(), out decimal num))
                         {
                             Console.WriteLine("Invalid input. Please enter a valid number.");
                             break;
                         }
 
-                        Console.Write("Enter second number: ");
-                        if (!decimal.TryParse(Console.ReadLine(), out decimal num4))
+                        decimal lastResult = calculator.Result;
+                        if (choice == 1)
                         {
-                            Console.WriteLine("Invalid input. Please enter a valid number.");
-                            break;
+                            calculator.Plus(lastResult, num);
                         }
-                        //garaas 2 utgaa avsan
-                        //calculator object iin Minus function duudna
-                        calculator.Minus(num3, num4);
-                        calculator.SaveToMemory(); // uildel hiisnii daraa memoryd Result iig hadgalna
+                        else
+                        {
+                            calculator.Minus(lastResult, num);
+                        }
+
+                        calculator.SaveToMemory();
                         Console.WriteLine($"New Result: {calculator.Result}");
                         break;
 
@@ -74,12 +55,25 @@ namespace Calculator
                         calculator.ShowMemory();
                         break;
 
-                    case 4: // Work on memory
-                        int memoryIndex = calculator.MemoryIndex();
+                    case 4: // Work on Memory (Fix applied)
+                        if (calculator.IsMemoryEmpty()) // Use memory from calculator
+                        {
+                            Console.WriteLine("Memory is empty!");
+                            break;
+                        }
+
+                        int lastMemoryIndex = calculator.MemoryIndex();
+                        if (lastMemoryIndex == -1)
+                        {
+                            lastMemoryIndex = calculator.GetMemoryItems().Count - 1; // Автоматаар сүүлчийн элемент сонгох
+                        }
+
                         decimal memValue = calculator.SelectMemoryItem();
                         Console.WriteLine($"\nMemory Value Selected: {memValue}");
+
                         Console.WriteLine("1. Plus (+)");
                         Console.WriteLine("2. Minus (-)");
+                        Console.Write("Choose operation: ");
 
                         if (!int.TryParse(Console.ReadLine(), out int memoryChoice))
                         {
@@ -88,7 +82,7 @@ namespace Calculator
                         }
 
                         Console.Write($"Enter number to apply on {memValue}: ");
-                        if (!decimal.TryParse(Console.ReadLine(), out decimal num))
+                        if (!decimal.TryParse(Console.ReadLine(), out decimal numMem))
                         {
                             Console.WriteLine("Invalid number.");
                             break;
@@ -96,11 +90,11 @@ namespace Calculator
 
                         if (memoryChoice == 1)
                         {
-                            calculator.Plus(memValue, num);
+                            calculator.Plus(memValue, numMem);
                         }
                         else if (memoryChoice == 2)
                         {
-                            calculator.Minus(memValue, num);
+                            calculator.Minus(memValue, numMem);
                         }
                         else
                         {
@@ -108,7 +102,7 @@ namespace Calculator
                             break;
                         }
 
-                        calculator.ReplaceItem(memoryIndex, calculator.Result); // uildel hiisnii daraa memoryd Result iig hadgalna
+                        calculator.ReplaceItem(lastMemoryIndex, calculator.Result);
                         Console.WriteLine($"New Memory Result: {calculator.Result}");
                         break;
 

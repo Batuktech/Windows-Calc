@@ -1,0 +1,12 @@
+C:\Users\sugas\source\repos\CalculatorLAB\DLLInterface\bin\Debug\net8.0\DLLInterface.deps.json
+C:\Users\sugas\source\repos\CalculatorLAB\DLLInterface\bin\Debug\net8.0\DLLInterface.dll
+C:\Users\sugas\source\repos\CalculatorLAB\DLLInterface\bin\Debug\net8.0\DLLInterface.pdb
+C:\Users\sugas\source\repos\CalculatorLAB\DLLInterface\obj\Debug\net8.0\DLLInterface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sugas\source\repos\CalculatorLAB\DLLInterface\obj\Debug\net8.0\DLLInterface.AssemblyInfoInputs.cache
+C:\Users\sugas\source\repos\CalculatorLAB\DLLInterface\obj\Debug\net8.0\DLLInterface.AssemblyInfo.cs
+C:\Users\sugas\source\repos\CalculatorLAB\DLLInterface\obj\Debug\net8.0\DLLInterface.csproj.CoreCompileInputs.cache
+C:\Users\sugas\source\repos\CalculatorLAB\DLLInterface\obj\Debug\net8.0\DLLInterface.sourcelink.json
+C:\Users\sugas\source\repos\CalculatorLAB\DLLInterface\obj\Debug\net8.0\DLLInterface.dll
+C:\Users\sugas\source\repos\CalculatorLAB\DLLInterface\obj\Debug\net8.0\refint\DLLInterface.dll
+C:\Users\sugas\source\repos\CalculatorLAB\DLLInterface\obj\Debug\net8.0\DLLInterface.pdb
+C:\Users\sugas\source\repos\CalculatorLAB\DLLInterface\obj\Debug\net8.0\ref\DLLInterface.dll

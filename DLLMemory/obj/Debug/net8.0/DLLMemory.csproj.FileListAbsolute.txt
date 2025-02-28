@@ -1,0 +1,12 @@
+C:\Users\sugas\source\repos\CalculatorLAB\DLLMemory\bin\Debug\net8.0\DLLMemory.deps.json
+C:\Users\sugas\source\repos\CalculatorLAB\DLLMemory\bin\Debug\net8.0\DLLMemory.dll
+C:\Users\sugas\source\repos\CalculatorLAB\DLLMemory\bin\Debug\net8.0\DLLMemory.pdb
+C:\Users\sugas\source\repos\CalculatorLAB\DLLMemory\obj\Debug\net8.0\DLLMemory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sugas\source\repos\CalculatorLAB\DLLMemory\obj\Debug\net8.0\DLLMemory.AssemblyInfoInputs.cache
+C:\Users\sugas\source\repos\CalculatorLAB\DLLMemory\obj\Debug\net8.0\DLLMemory.AssemblyInfo.cs
+C:\Users\sugas\source\repos\CalculatorLAB\DLLMemory\obj\Debug\net8.0\DLLMemory.csproj.CoreCompileInputs.cache
+C:\Users\sugas\source\repos\CalculatorLAB\DLLMemory\obj\Debug\net8.0\DLLMemory.sourcelink.json
+C:\Users\sugas\source\repos\CalculatorLAB\DLLMemory\obj\Debug\net8.0\DLLMemory.dll
+C:\Users\sugas\source\repos\CalculatorLAB\DLLMemory\obj\Debug\net8.0\refint\DLLMemory.dll
+C:\Users\sugas\source\repos\CalculatorLAB\DLLMemory\obj\Debug\net8.0\DLLMemory.pdb
+C:\Users\sugas\source\repos\CalculatorLAB\DLLMemory\obj\Debug\net8.0\ref\DLLMemory.dll

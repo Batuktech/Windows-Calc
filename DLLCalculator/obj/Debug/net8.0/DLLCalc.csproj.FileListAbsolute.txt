@@ -1,0 +1,12 @@
+C:\Users\sugas\source\repos\CalculatorLAB\DLLCalculator\bin\Debug\net8.0\DLLCalc.deps.json
+C:\Users\sugas\source\repos\CalculatorLAB\DLLCalculator\bin\Debug\net8.0\DLLCalc.dll
+C:\Users\sugas\source\repos\CalculatorLAB\DLLCalculator\bin\Debug\net8.0\DLLCalc.pdb
+C:\Users\sugas\source\repos\CalculatorLAB\DLLCalculator\obj\Debug\net8.0\DLLCalc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sugas\source\repos\CalculatorLAB\DLLCalculator\obj\Debug\net8.0\DLLCalc.AssemblyInfoInputs.cache
+C:\Users\sugas\source\repos\CalculatorLAB\DLLCalculator\obj\Debug\net8.0\DLLCalc.AssemblyInfo.cs
+C:\Users\sugas\source\repos\CalculatorLAB\DLLCalculator\obj\Debug\net8.0\DLLCalc.csproj.CoreCompileInputs.cache
+C:\Users\sugas\source\repos\CalculatorLAB\DLLCalculator\obj\Debug\net8.0\DLLCalc.sourcelink.json
+C:\Users\sugas\source\repos\CalculatorLAB\DLLCalculator\obj\Debug\net8.0\DLLCalc.dll
+C:\Users\sugas\source\repos\CalculatorLAB\DLLCalculator\obj\Debug\net8.0\refint\DLLCalc.dll
+C:\Users\sugas\source\repos\CalculatorLAB\DLLCalculator\obj\Debug\net8.0\DLLCalc.pdb
+C:\Users\sugas\source\repos\CalculatorLAB\DLLCalculator\obj\Debug\net8.0\ref\DLLCalc.dll

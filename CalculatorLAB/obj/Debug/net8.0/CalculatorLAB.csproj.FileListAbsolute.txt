@@ -12,3 +12,14 @@ C:\Users\sugas\source\repos\CalculatorLAB\CalculatorLAB\obj\Debug\net8.0\refint\
 C:\Users\sugas\source\repos\CalculatorLAB\CalculatorLAB\obj\Debug\net8.0\CalculatorLAB.pdb
 C:\Users\sugas\source\repos\CalculatorLAB\CalculatorLAB\obj\Debug\net8.0\CalculatorLAB.genruntimeconfig.cache
 C:\Users\sugas\source\repos\CalculatorLAB\CalculatorLAB\obj\Debug\net8.0\ref\CalculatorLAB.dll
+C:\Users\sugas\source\repos\CalculatorLAB\CalculatorLAB\obj\Debug\net8.0\CalculatorLAB.csproj.AssemblyReference.cache
+C:\Users\sugas\source\repos\CalculatorLAB\CalculatorLAB\obj\Debug\net8.0\CalculatorLAB.sourcelink.json
+C:\Users\sugas\source\repos\CalculatorLAB\CalculatorLAB\bin\Debug\net8.0\DLLCalc.dll
+C:\Users\sugas\source\repos\CalculatorLAB\CalculatorLAB\bin\Debug\net8.0\DLLInterface.dll
+C:\Users\sugas\source\repos\CalculatorLAB\CalculatorLAB\bin\Debug\net8.0\DLLMaincalc.dll
+C:\Users\sugas\source\repos\CalculatorLAB\CalculatorLAB\bin\Debug\net8.0\DLLMemory.dll
+C:\Users\sugas\source\repos\CalculatorLAB\CalculatorLAB\bin\Debug\net8.0\DLLMaincalc.pdb
+C:\Users\sugas\source\repos\CalculatorLAB\CalculatorLAB\bin\Debug\net8.0\DLLCalc.pdb
+C:\Users\sugas\source\repos\CalculatorLAB\CalculatorLAB\bin\Debug\net8.0\DLLInterface.pdb
+C:\Users\sugas\source\repos\CalculatorLAB\CalculatorLAB\bin\Debug\net8.0\DLLMemory.pdb
+C:\Users\sugas\source\repos\CalculatorLAB\CalculatorLAB\obj\Debug\net8.0\Calculat.23DB44D1.Up2Date
