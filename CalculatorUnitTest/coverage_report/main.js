@@ -221,7 +221,7 @@ var assemblies = [
   {
     "name": "DLLMaincalc",
     "classes": [
-      { "name": "DLLMaincalc.MainCalc.MainCalc", "rp": "DLLMaincalc_MainCalc.html", "cl": 33, "ucl": 14, "cal": 47, "tl": 83, "cb": 3, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "DLLMaincalc.MainCalc.MainCalc", "rp": "DLLMaincalc_MainCalc.html", "cl": 47, "ucl": 0, "cal": 47, "tl": 85, "cb": 8, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
     ]},
   {
     "name": "DLLMemory",

@@ -22,14 +22,14 @@ namespace CalculatorUnitTest
         public void Test_Addition()
         {
             calculator.Plus(5, 10);
-            Assert.AreEqual(15, calculator.Result, "Addition failed.");
+            Assert.AreEqual(15, calculator.Result);
         }
 
         [TestMethod]
         public void Test_Subtraction()
         {
             calculator.Minus(10, 4);
-            Assert.AreEqual(6, calculator.Result, "Subtraction failed.");
+            Assert.AreEqual(6, calculator.Result);
         }
 
         [TestMethod]
@@ -39,14 +39,14 @@ namespace CalculatorUnitTest
             calculator.SaveToMemory();
 
             List<MemoryItem> memoryItems = calculator.GetMemoryItems();
-            Assert.AreEqual(1, memoryItems.Count, "Memory count is incorrect.");
-            Assert.AreEqual(10, memoryItems[0].Value, "Memory value is incorrect.");
+            Assert.AreEqual(1, memoryItems.Count);
+            Assert.AreEqual(10, memoryItems[0].Value);
         }
 
         [TestMethod]
         public void Test_IsMemoryEmpty_InitiallyTrue()
         {
-            Assert.IsTrue(calculator.IsMemoryEmpty(), "Memory should be empty initially.");
+            Assert.IsTrue(calculator.IsMemoryEmpty());
         }
 
         [TestMethod]
@@ -54,7 +54,7 @@ namespace CalculatorUnitTest
         {
             calculator.Plus(8, 2);
             calculator.SaveToMemory();
-            Assert.IsFalse(calculator.IsMemoryEmpty(), "Memory should not be empty after saving a value.");
+            Assert.IsFalse(calculator.IsMemoryEmpty());
         }
 
         [TestMethod]
@@ -67,13 +67,23 @@ namespace CalculatorUnitTest
             calculator.SaveToMemory();
 
             decimal lastMemoryValue = calculator.SelectMemoryItem();
-            Assert.AreEqual(5, lastMemoryValue, "SelectMemoryItem did not return the correct last stored value.");
+            Assert.AreEqual(5, lastMemoryValue);
+        }
+
+
+        [TestMethod]
+
+        public void Test_SelectMemoryItemEmpty()
+        {
+            MainCalc calculator = new MainCalc();
+            decimal result =calculator.SelectMemoryItem();
+            Assert.AreEqual(0, result);
         }
 
         [TestMethod]
         public void Test_MemoryIndex_Default()
         {
-            Assert.AreEqual(-1, calculator.MemoryIndex(), "Default memory index should be -1.");
+            Assert.AreEqual(-1, calculator.MemoryIndex());
         }
 
         [TestMethod]
@@ -84,12 +94,12 @@ namespace CalculatorUnitTest
 
             calculator.ReplaceItem(0, 10);
             List<MemoryItem> memoryItems = calculator.GetMemoryItems();
-            Assert.AreEqual(10, memoryItems[0].Value, "Memory value did not update correctly.");
+            Assert.AreEqual(10, memoryItems[0].Value);
         }
 
 
         [TestMethod]
-        public void ShowMemory_Empty()
+        public void Test_ShowMemoryEmpty()
         {
   
             MainCalc calculator = new MainCalc();
@@ -101,7 +111,7 @@ namespace CalculatorUnitTest
         }
 
         [TestMethod]
-        public void ShowMemory_HasItem()
+        public void Test_ShowMemoryHasItem()
         {
             
             MainCalc calculator = new MainCalc();
@@ -115,7 +125,6 @@ namespace CalculatorUnitTest
             string expected = "Memory Items:\n 1. 15";
             Assert.AreEqual(expected, result);
         }
-
 
     }
 }

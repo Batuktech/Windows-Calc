@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DLLMemory")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ff136b7626343c852aa008626f058d54d8c9d9a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b0a787d6d871bddc751a30f9eb0735bb5a45d1a")]
 [assembly: System.Reflection.AssemblyProductAttribute("DLLMemory")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DLLMemory")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
