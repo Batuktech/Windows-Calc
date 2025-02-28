@@ -176,3 +176,4 @@ C:\Users\sugas\source\repos\CalculatorLAB\CalculatorUnitTest\bin\Debug\net8.0\DL
 C:\Users\sugas\source\repos\CalculatorLAB\CalculatorUnitTest\bin\Debug\net8.0\DLLMemory.pdb
 C:\Users\sugas\source\repos\CalculatorLAB\CalculatorUnitTest\bin\Debug\net8.0\DLLCalc.pdb
 C:\Users\sugas\source\repos\CalculatorLAB\CalculatorUnitTest\bin\Debug\net8.0\DLLInterface.pdb
+C:\Users\sugas\source\repos\CalculatorLAB\CalculatorUnitTest\bin\Debug\net8.0\CoverletSourceRootsMapping_CalculatorUnitTest

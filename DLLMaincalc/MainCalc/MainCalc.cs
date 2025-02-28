@@ -7,30 +7,32 @@ namespace DLLMaincalc.MainCalc
 {
     public class MainCalc : Calc1, IOperation
     {
-        public override decimal Result { get; set; }   // Result утгыг хадгалах
-        private Meemory memory = new Meemory();         // `Memory` класс ашиглах
+        public override decimal Result { get; set; }   // Result utgiig hadgalna
+        private Meemory memory = new Meemory();         // memory class ashiglan object zarlana
 
-        public void ShowMemory()                      // Санах ой дахь утгуудыг харуулах
+        public string ShowMemory() // Return memory items
         {
             var items = memory.GetMemoryItems();
             if (items.Count == 0)
             {
-                Console.WriteLine("Memory is empty!");
-                return;
+                return "Memory is empty!";
             }
 
-            Console.WriteLine("\nMemory Items:");
+            string result = "Memory Items:";
             for (int i = 0; i < items.Count; i++)
             {
-                Console.WriteLine($" {i + 1}. {items[i].Value}");
+                result += $"\n {i + 1}. {items[i].Value}";
             }
+
+            return result; // 
         }
+
 
         public decimal SelectMemoryItem()
         {
             int lastIndex = memory.GetLastSelectedMemoryIndex();
 
-            // If no memory index has been selected, default to the last memory item
+            //default aaraa -1 baival memory item aa songono
             if (lastIndex == -1)
             {
                 List<MemoryItem> memoryItems = memory.GetMemoryItems();
@@ -39,43 +41,43 @@ namespace DLLMaincalc.MainCalc
                     return 0;
                 }
 
-                lastIndex = memoryItems.Count - 1; // Select the last item
+                lastIndex = memoryItems.Count - 1; // suuliin item iig songono
             }
 
             return memory.SelectMemoryItem(lastIndex);
         }
 
 
-        public void Plus(decimal number1, decimal number2) // Нэмэх үйлдэл
+        public void Plus(decimal number1, decimal number2) // nemeh uildel
         {
             this.Result = number1 + number2;
         }
 
-        public void Minus(decimal number1, decimal number2) // Хасах үйлдэл
+        public void Minus(decimal number1, decimal number2) // hasah uildel
         {
             this.Result = number1 - number2;
         }
 
-        public void SaveToMemory() // Санах ойд хадгалах
+        public void SaveToMemory() // sanah oid hadgalah
         {
             memory.Save(Result);
         }
 
-        public void ReplaceItem(int index, decimal number) // Санах ойн элемент шинэчлэх
+        public void ReplaceItem(int index, decimal number) // sanah oid element shinecleh
         {
             memory.ReplaceItem(index, number);
         }
 
-        public int MemoryIndex() // Сүүлд сонгосон санах ойн индекс авах
+        public int MemoryIndex() // suuld songoson item iin index avah
         {
             return memory.GetLastSelectedMemoryIndex();
         }
-        public bool IsMemoryEmpty()
+        public bool IsMemoryEmpty() //memory hooson ugug shalgana
         {
             return memory.IsEmpty();
         }
 
-        public List<MemoryItem> GetMemoryItems()
+        public List<MemoryItem> GetMemoryItems()    //memory itemuudig avna
         {
             return memory.GetMemoryItems();
         }

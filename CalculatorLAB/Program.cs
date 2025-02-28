@@ -7,7 +7,7 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            MainCalc calculator = new MainCalc(); // Only one instance, contains memory
+            MainCalc calculator = new MainCalc(); // Maincalc class ashiglan calculator object uusgene
 
             while (true)
             {
@@ -52,11 +52,11 @@ namespace Calculator
                         break;
 
                     case 3: // Show memory
-                        calculator.ShowMemory();
+                        Console.WriteLine(calculator.ShowMemory());
                         break;
 
-                    case 4: // Work on Memory (Fix applied)
-                        if (calculator.IsMemoryEmpty()) // Use memory from calculator
+                    case 4: // Work on Memory 
+                        if (calculator.IsMemoryEmpty()) // calculator object iin function ashiglan memory hooson uguig shalgana.
                         {
                             Console.WriteLine("Memory is empty!");
                             break;
@@ -65,10 +65,10 @@ namespace Calculator
                         int lastMemoryIndex = calculator.MemoryIndex();
                         if (lastMemoryIndex == -1)
                         {
-                            lastMemoryIndex = calculator.GetMemoryItems().Count - 1; // Автоматаар сүүлчийн элемент сонгох
+                            lastMemoryIndex = calculator.GetMemoryItems().Count - 1; // automataar suuliin elementiig songono.
                         }
 
-                        decimal memValue = calculator.SelectMemoryItem();
+                        decimal memValue = calculator.SelectMemoryItem();       //memoryitem iig songono.
                         Console.WriteLine($"\nMemory Value Selected: {memValue}");
 
                         Console.WriteLine("1. Plus (+)");

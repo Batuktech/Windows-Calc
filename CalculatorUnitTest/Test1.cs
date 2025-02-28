@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using DLLMaincalc.MainCalc;
 using DLLMemory.Memory;
+using Microsoft.VisualStudio.TestPlatform.Utilities;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace CalculatorUnitTest
@@ -85,5 +86,36 @@ namespace CalculatorUnitTest
             List<MemoryItem> memoryItems = calculator.GetMemoryItems();
             Assert.AreEqual(10, memoryItems[0].Value, "Memory value did not update correctly.");
         }
+
+
+        [TestMethod]
+        public void ShowMemory_Empty()
+        {
+  
+            MainCalc calculator = new MainCalc();
+
+            string result = calculator.ShowMemory();
+
+
+            Assert.AreEqual("Memory is empty!", result);
+        }
+
+        [TestMethod]
+        public void ShowMemory_HasItem()
+        {
+            
+            MainCalc calculator = new MainCalc();
+            calculator.Plus(5, 10);
+            calculator.SaveToMemory();
+
+
+            string result = calculator.ShowMemory();
+
+            
+            string expected = "Memory Items:\n 1. 15";
+            Assert.AreEqual(expected, result);
+        }
+
+
     }
 }

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "xosn3wGN7b8=",
+  "dgSpecHash": "XBCxrJ+EQE0=",
   "success": true,
   "projectFilePath": "C:\\Users\\sugas\\source\\repos\\CalculatorLAB\\CalculatorUnitTest\\CalculatorUnitTest.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\sugas\\.nuget\\packages\\coverlet.msbuild\\6.0.4\\coverlet.msbuild.6.0.4.nupkg.sha512",
     "C:\\Users\\sugas\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",
     "C:\\Users\\sugas\\.nuget\\packages\\microsoft.codecoverage\\17.12.0\\microsoft.codecoverage.17.12.0.nupkg.sha512",
     "C:\\Users\\sugas\\.nuget\\packages\\microsoft.net.test.sdk\\17.12.0\\microsoft.net.test.sdk.17.12.0.nupkg.sha512",

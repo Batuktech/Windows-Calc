@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.7974" branch-rate="0.5" version="1.9" timestamp="1740744936" lines-covered="63" lines-valid="79" branches-covered="8" branches-valid="16">
+  <sources>
+    <source>C:\Users\sugas\source\repos\CalculatorLAB\</source>
+  </sources>
+  <packages>
+    <package name="DLLCalc" line-rate="1" branch-rate="1" complexity="0">
+      <classes />
+    </package>
+    <package name="DLLInterface" line-rate="1" branch-rate="1" complexity="0">
+      <classes />
+    </package>
+    <package name="DLLMaincalc" line-rate="0.7021" branch-rate="0.375" complexity="17">
+      <classes>
+        <class name="DLLMaincalc.MainCalc.MainCalc" filename="DLLMaincalc\MainCalc\MainCalc.cs" line-rate="0.7021" branch-rate="0.375" complexity="17">
+          <methods>
+            <method name="get_Result" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="14" branch="False" />
+              </lines>
+            </method>
+            <method name="ShowMemory" signature="()" line-rate="0" branch-rate="0" complexity="4">
+              <lines>
+                <line number="14" hits="0" branch="False" />
+                <line number="15" hits="0" branch="False" />
+                <line number="16" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="24" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="153" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="SelectMemoryItem" signature="()" line-rate="0.8332999999999999" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="30" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+                <line number="34" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="19" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="35" hits="1" branch="False" />
+                <line number="36" hits="1" branch="False" />
+                <line number="37" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="45" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="38" hits="0" branch="False" />
+                <line number="39" hits="0" branch="False" />
+                <line number="42" hits="1" branch="False" />
+                <line number="43" hits="1" branch="False" />
+                <line number="45" hits="1" branch="False" />
+                <line number="46" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="Plus" signature="(System.Decimal,System.Decimal)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="50" hits="6" branch="False" />
+                <line number="51" hits="6" branch="False" />
+                <line number="52" hits="6" branch="False" />
+              </lines>
+            </method>
+            <method name="Minus" signature="(System.Decimal,System.Decimal)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="55" hits="1" branch="False" />
+                <line number="56" hits="1" branch="False" />
+                <line number="57" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="SaveToMemory" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="60" hits="5" branch="False" />
+                <line number="61" hits="5" branch="False" />
+                <line number="62" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="ReplaceItem" signature="(System.Int32,System.Decimal)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="65" hits="1" branch="False" />
+                <line number="66" hits="1" branch="False" />
+                <line number="67" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="MemoryIndex" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="70" hits="1" branch="False" />
+                <line number="71" hits="1" branch="False" />
+                <line number="72" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="IsMemoryEmpty" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="74" hits="2" branch="False" />
+                <line number="75" hits="2" branch="False" />
+                <line number="76" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="GetMemoryItems" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="79" hits="2" branch="False" />
+                <line number="80" hits="2" branch="False" />
+                <line number="81" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="8" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="14" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="24" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="153" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="34" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="19" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="35" hits="1" branch="False" />
+            <line number="36" hits="1" branch="False" />
+            <line number="37" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="45" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="38" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="43" hits="1" branch="False" />
+            <line number="45" hits="1" branch="False" />
+            <line number="46" hits="1" branch="False" />
+            <line number="50" hits="6" branch="False" />
+            <line number="51" hits="6" branch="False" />
+            <line number="52" hits="6" branch="False" />
+            <line number="55" hits="1" branch="False" />
+            <line number="56" hits="1" branch="False" />
+            <line number="57" hits="1" branch="False" />
+            <line number="60" hits="5" branch="False" />
+            <line number="61" hits="5" branch="False" />
+            <line number="62" hits="5" branch="False" />
+            <line number="65" hits="1" branch="False" />
+            <line number="66" hits="1" branch="False" />
+            <line number="67" hits="1" branch="False" />
+            <line number="70" hits="1" branch="False" />
+            <line number="71" hits="1" branch="False" />
+            <line number="72" hits="1" branch="False" />
+            <line number="74" hits="2" branch="False" />
+            <line number="75" hits="2" branch="False" />
+            <line number="76" hits="2" branch="False" />
+            <line number="79" hits="2" branch="False" />
+            <line number="80" hits="2" branch="False" />
+            <line number="81" hits="2" branch="False" />
+            <line number="11" hits="8" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="DLLMemory" line-rate="0.9375" branch-rate="0.625" complexity="15">
+      <classes>
+        <class name="DLLMemory.Memory.Meemory" filename="DLLMemory\Memory\Meemory.cs" line-rate="0.9259000000000001" branch-rate="0.625" complexity="13">
+          <methods>
+            <method name="Save" signature="(System.Decimal)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="5" branch="False" />
+                <line number="20" hits="5" branch="False" />
+                <line number="21" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="GetMemoryItems" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="3" branch="False" />
+                <line number="26" hits="3" branch="False" />
+                <line number="27" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="IsEmpty" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="31" hits="2" branch="False" />
+                <line number="32" hits="2" branch="False" />
+                <line number="33" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="SelectMemoryItem" signature="(System.Int32)" line-rate="0.7142000000000001" branch-rate="0.5" complexity="4">
+              <lines>
+                <line number="37" hits="1" branch="False" />
+                <line number="38" hits="1" branch="True" condition-coverage="50% (2/4)">
+                  <conditions>
+                    <condition number="3" type="jump" coverage="50%" />
+                    <condition number="27" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="39" hits="0" branch="False" />
+                <line number="40" hits="0" branch="False" />
+                <line number="43" hits="1" branch="False" />
+                <line number="44" hits="1" branch="False" />
+                <line number="45" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="GetLastSelectedMemoryIndex" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="49" hits="2" branch="False" />
+                <line number="50" hits="2" branch="False" />
+                <line number="51" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="ReplaceItem" signature="(System.Int32,System.Decimal)" line-rate="1" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="55" hits="1" branch="False" />
+                <line number="56" hits="1" branch="True" condition-coverage="75% (3/4)">
+                  <conditions>
+                    <condition number="3" type="jump" coverage="50%" />
+                    <condition number="24" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="57" hits="1" branch="False" />
+                <line number="58" hits="1" branch="False" />
+                <line number="59" hits="1" branch="False" />
+                <line number="60" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="8" branch="False" />
+                <line number="15" hits="8" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="19" hits="5" branch="False" />
+            <line number="20" hits="5" branch="False" />
+            <line number="21" hits="5" branch="False" />
+            <line number="25" hits="3" branch="False" />
+            <line number="26" hits="3" branch="False" />
+            <line number="27" hits="3" branch="False" />
+            <line number="31" hits="2" branch="False" />
+            <line number="32" hits="2" branch="False" />
+            <line number="33" hits="2" branch="False" />
+            <line number="37" hits="1" branch="False" />
+            <line number="38" hits="1" branch="True" condition-coverage="50% (2/4)">
+              <conditions>
+                <condition number="3" type="jump" coverage="50%" />
+                <condition number="27" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="39" hits="0" branch="False" />
+            <line number="40" hits="0" branch="False" />
+            <line number="43" hits="1" branch="False" />
+            <line number="44" hits="1" branch="False" />
+            <line number="45" hits="1" branch="False" />
+            <line number="49" hits="2" branch="False" />
+            <line number="50" hits="2" branch="False" />
+            <line number="51" hits="2" branch="False" />
+            <line number="55" hits="1" branch="False" />
+            <line number="56" hits="1" branch="True" condition-coverage="75% (3/4)">
+              <conditions>
+                <condition number="3" type="jump" coverage="50%" />
+                <condition number="24" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="57" hits="1" branch="False" />
+            <line number="58" hits="1" branch="False" />
+            <line number="59" hits="1" branch="False" />
+            <line number="60" hits="1" branch="False" />
+            <line number="13" hits="8" branch="False" />
+            <line number="15" hits="8" branch="False" />
+          </lines>
+        </class>
+        <class name="DLLMemory.Memory.MemoryItem" filename="DLLMemory\Memory\MemoryItem.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Value" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="9" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Decimal)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="5" branch="False" />
+                <line number="14" hits="5" branch="False" />
+                <line number="15" hits="5" branch="False" />
+                <line number="16" hits="5" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="9" branch="False" />
+            <line number="13" hits="5" branch="False" />
+            <line number="14" hits="5" branch="False" />
+            <line number="15" hits="5" branch="False" />
+            <line number="16" hits="5" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

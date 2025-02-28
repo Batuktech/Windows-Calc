@@ -12,12 +12,14 @@
           "DLLMemory": "1.0.0",
           "MSTest": "3.6.4",
           "Microsoft.NET.Test.Sdk": "17.12.0",
+          "coverlet.msbuild": "6.0.4",
           "Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions": "14.0.0.0"
         },
         "runtime": {
           "CalculatorUnitTest.dll": {}
         }
       },
+      "coverlet.msbuild/6.0.4": {},
       "Microsoft.ApplicationInsights/2.22.0": {
         "dependencies": {
           "System.Diagnostics.DiagnosticSource": "5.0.0"
@@ -587,7 +589,7 @@
       "DLLCalc/1.0.0": {
         "runtime": {
           "DLLCalc.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -595,7 +597,7 @@
       "DLLInterface/1.0.0": {
         "runtime": {
           "DLLInterface.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -608,7 +610,7 @@
         },
         "runtime": {
           "DLLMaincalc.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -616,7 +618,7 @@
       "DLLMemory/1.0.0": {
         "runtime": {
           "DLLMemory.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -636,6 +638,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "coverlet.msbuild/6.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Qa7Hg+wrOMDKpXVn2dw4Wlun490bIWsFW0fdNJQFJLZnbU27MCP0HJ2mPgS+3EQBQUb0zKlkwiQzP+j38Hc3Iw==",
+      "path": "coverlet.msbuild/6.0.4",
+      "hashPath": "coverlet.msbuild.6.0.4.nupkg.sha512"
     },
     "Microsoft.ApplicationInsights/2.22.0": {
       "type": "package",

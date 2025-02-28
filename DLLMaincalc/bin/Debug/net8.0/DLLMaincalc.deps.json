@@ -19,7 +19,7 @@
       "DLLCalc/1.0.0": {
         "runtime": {
           "DLLCalc.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -27,7 +27,7 @@
       "DLLInterface/1.0.0": {
         "runtime": {
           "DLLInterface.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -35,7 +35,7 @@
       "DLLMemory/1.0.0": {
         "runtime": {
           "DLLMemory.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
